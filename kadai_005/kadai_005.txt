@@ -1,0 +1,28 @@
+PS C:\Users\rrii2\Desktop\git_challenge> cd C:\Users\rrii2\Desktop\git_challenge
+PS C:\Users\rrii2\Desktop\git_challenge> git init
+Initialized empty Git repository in C:/Users/rrii2/Desktop/git_challenge/.git/
+PS C:\Users\rrii2\Desktop\git_challenge> git add hello_world.txt
+
+PS C:\Users\rrii2\Desktop\git_challenge> git commit -m "Hello,world!追記"
+[main (root-commit) e40c355] Hello,world!追記
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\rrii2\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\rrii2\Desktop\git_challenge> git commit -m "こんにちは世界！追記"
+[main dc7078b] こんにちは世界！追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\rrii2\Desktop\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\rrii2\Desktop\git_challenge> git log
+commit dc7078b350b4d47d6fa1129e67c04d09c99f87ad (HEAD -> main)
+Author: rina2525 <rina.yasuno@icloud.com>
+Date:   Thu Oct 24 22:00:11 2024 +0900
+
+    こんにちは世界！追記
+
+commit e40c355c5b27caec6f03bd15e090ce80a7970df8
+Author: rina2525 <rina.yasuno@icloud.com>
+Date:   Thu Oct 24 21:58:23 2024 +0900
+
+    Hello,world!追記
