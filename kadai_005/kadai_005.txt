@@ -1,16 +1,16 @@
-PS C:\Users\rrii2\Desktop\git_challenge> 
-PS C:\Users\rrii2\Desktop\git_challenge> cd C:\Users\rrii2\Desktop\git_challenge
+PS C:\Users\rrii2\Desktop\lesson>
+cd C:\Users\rrii2\Desktop\git_challenge
 PS C:\Users\rrii2\Desktop\git_challenge> git init
-
 Initialized empty Git repository in C:/Users/rrii2/Desktop/git_challenge/.git/
 PS C:\Users\rrii2\Desktop\git_challenge> git add hello_world.txt
-PS C:\Users\rrii2\Desktop\git_challenge> git commit -m
-error: switch `m' requires a value
+PS C:\Users\rrii2\Desktop\git_challenge> git commit -m "Hello,worldを追加"
+[main (root-commit) fc762f7] Hello,worldを追加
+ 1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
 PS C:\Users\rrii2\Desktop\git_challenge> git add hello_world.txt
-PS C:\Users\rrii2\Desktop\git_challenge> git commit -m "こんにちは、世界！を追加"
-[main a7d777c] こんにちは、世界！を追加
+PS C:\Users\rrii2\Desktop\git_challenge> git commit -m "こんにちは世界を追加" 
+[main bcda616] こんにちは世界を追加
  1 file changed, 2 insertions(+), 1 deletion(-)
 PS C:\Users\rrii2\Desktop\git_challenge> git log --oneline
-a7d777c (HEAD -> main) こんにちは、世界！を追加
-91016c7 Hello,world!を追加
+bcda616 (HEAD -> main) こんにちは世界を追加
+fc762f7 Hello,worldを追加
